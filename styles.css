@@ -1,0 +1,139 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://seriousfacts.com/wp-content/uploads/2017/09/The-big-five-animals-like-rhinos-leopards-lions-buffalo-and-elephants-all-can-be-found-in-Kenya..jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+  
+  
+  
+}
+
+/* Styling Nav bar*/
+.nav {
+position: relative;
+display: flex;
+padding-top: 50px;
+padding-bottom: 20px;
+padding-left: 10px;
+}
+
+/* styling Button in Nav Bar */
+#HomeTab {
+    background-color:black;
+color:white;
+border-radius: 12px;
+font-size: 35px;
+padding-left: 0px;
+margin-left: 50px;
+}
+
+/* Animal Image */
+#AnimalImg {
+    position: relative;
+}
+
+/* Insite Message */
+
+.insite {
+    position: relative;
+    padding-top: 10px;
+color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: xx-large;
+text-align: center;
+}
+
+/* Review Form */
+#reviews { 
+    margin-left: 600px;
+    position: relative;
+    color: white;
+}
+
+#list{
+    margin-left: 600px;
+    position: relative;
+    color: black;
+}
+.btn {
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+}
+
+/* change background of reviews list */
+#reviewed{
+    width: 300px;
+}
+
+#list {
+    background-color: white;
+    width: 340px;
+}
+/* Membership Form */
+#membership{
+    position: relative;
+     margin-top: 10px;
+    padding-left: 550px;
+    color: black;
+}
+
+/* Wildlife Documentary about park */
+#fun{
+    position: relative;
+    margin-top: 70px ;
+    display: flex; 
+    margin-left: 70px;
+}
+
+/* FOOTER */
+#foot {
+position: relative;
+background-color: black;
+margin-top: 30px;
+height: 200px;
+margin-right: 35px;
+color: yellow;
+display: flex;
+}
+
+/* Footer Details */
+#ft {
+    position: relative;
+    display: flex;
+    padding-left: 130px;
+    padding-top: 10px;
+}
+
+#parkh{
+    font-size: large;
+    color: white;
+}
+
+#links {
+    position: relative;
+    display: block;
+}
+
+#more {
+padding-left: 400px;
+}
+
+#social {
+    color: white;
+    padding-left: 400px;
+    font-size: large;
+}
